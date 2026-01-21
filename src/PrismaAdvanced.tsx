@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { 
   ShieldCheck, Activity, CheckCircle, XCircle, Factory, 
   Truck, Store, Map, FileText, Search, LayoutDashboard, 
-  LogOut, Stethoscope, Database, Link, 
-  Lock, Zap, Wifi, WifiOff, QrCode, 
+  LogOut, Stethoscope, Database, 
+  Lock, Zap, Wifi, WifiOff, 
   AlertTriangle, ChevronRight, User
 } from 'lucide-react';
 
@@ -77,7 +77,7 @@ const SAMPLE_BLOCKS: Block[] = [
   },
   {
     index: 1,
-    hash: "00a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcde",
+    hash: "00a1b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef0123456789abcde",
     previousHash: "00000000000000000GENESIS00000000000000000",
     timestamp: "2025-10-15T08:30:00.000Z",
     data: {
